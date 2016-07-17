@@ -1,0 +1,2969 @@
+[ 2016-07-17T00:00:09+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.003983s ]
+SQL: INSERT INTO `blog` (`category`,`username`,`title`,`content`,`time`) VALUES ('�\�','�\�','十二','一二三四dfdsfsg的算法的身份',1468684809) [ RunTime:0.001671s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\BlogAction.class.php 第 13 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000751s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008089s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000409s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000503s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000440s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000789s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-07-17T00:00:10+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003636s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003818s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000776s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010877s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000587s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000498s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000401s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002284s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000961s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-07-17T00:09:41+08:00 ] 127.0.0.1 /MyWork/admin.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000787s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000860s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009400s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000678s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000619s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000502s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002677s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000639s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-07-17T00:09:44+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add/menu/blog
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000830s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011554s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000696s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000547s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000423s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002509s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000845s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-07-17T00:09:58+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.005155s ]
+SQL: INSERT INTO `blog` (`category`,`username`,`title`,`content`,`time`) VALUES ('�\�','�\�','�\�','是时候死hi时候打回访电话管理上广泛看好了',1468685398) [ RunTime:0.002933s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\BlogAction.class.php 第 13 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000604s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008086s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000516s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000499s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000388s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002168s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-07-17T00:09:59+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000971s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009664s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000564s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000509s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000370s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002272s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-07-17T00:10:14+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000552s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009934s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000659s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000653s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000386s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002634s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-07-17T00:25:06+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000695s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007779s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000449s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000561s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000376s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-07-17T00:25:08+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add/menu/blog
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000796s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011597s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001685s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000725s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000831s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004523s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000980s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-07-17T00:26:37+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.005331s ]
+SQL: INSERT INTO `blog` (`category`,`username`,`title`,`content`,`time`) VALUES ('网站制作','刘玮�\�','复习一�\�','&lt;span style=&quot;color:#0F0F0F;background-color:#F2F1E3;&quot;&gt;北国风光，千里冰封，万里雪飘�\�&lt;/span&gt;&lt;br /&gt;\r\n&lt;span style=&quot;color:#0F0F0F;background-color:#F2F1E3;&quot;&gt;望长城内外，惟余莽莽；大河上下，顿失滔滔�\�(�\� 通：馀)&lt;/span&gt;&lt;br /&gt;\r\n&lt;span style=&quot;color:#0F0F0F;background-color:#F2F1E3;&quot;&gt;山舞银蛇，原驰蜡象，欲与天公试比高�\�(原驰 原作：原�\�)&lt;/span&gt;&lt;br /&gt;\r\n&lt;span style=&quot;color:#0F0F0F;background-color:#F2F1E3;&quot;&gt;须晴日，看红装素裹，分外妖娆�\�(红装 一作：银装)&lt;/span&gt;&lt;br /&gt;\r\n&lt;span style=&quot;color:#0F0F0F;background-color:#F2F1E3;&quot;&gt;江山如此多娇，引无数英雄竞折腰�\�&lt;/span&gt;&lt;br /&gt;\r\n&lt;span style=&quot;color:#0F0F0F;background-color:#F2F1E3;&quot;&gt;惜秦皇汉武，略输文采；唐宗宋祖，稍逊风骚�\�&lt;/span&gt;&lt;br /&gt;\r\n&lt;span style=&quot;color:#0F0F0F;background-color:#F2F1E3;&quot;&gt;一代天骄，成吉思汗，只识弯弓射大雕�\�&lt;/span&gt;&lt;br /&gt;\r\n&lt;span style=&quot;color:#0F0F0F;background-color:#F2F1E3;&quot;&gt;俱往矣，数风流人物，还看今朝�\�&lt;/span&gt;',1468686397) [ RunTime:0.002687s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\BlogAction.class.php 第 14 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000747s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010208s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000533s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000375s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000330s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001915s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-07-17T00:26:38+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000545s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000634s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009745s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000594s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000602s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000435s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002436s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-07-17T00:32:48+08:00 ] 127.0.0.1 /MyWork/admin.php/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001877s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002146s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011254s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000811s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000794s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001852s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004816s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2016-07-17T00:32:54+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000722s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000776s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009316s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000600s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000560s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000459s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002497s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-07-17T00:32:54+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-07-17T00:35:53+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000840s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000564s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000428s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000414s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002296s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2016-07-17T00:35:53+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-07-17T00:37:30+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000657s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006979s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000637s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000528s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000388s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002317s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-07-17T00:37:31+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+
+[ 2016-07-17T00:37:38+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000495s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006210s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000485s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000468s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000393s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002104s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-07-17T00:37:38+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-07-17T00:56:30+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000846s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006665s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000425s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000399s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000424s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-07-17T00:56:30+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+
+[ 2016-07-17T00:57:17+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-07-17T00:58:54+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000613s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006174s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000484s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000421s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000559s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-07-17T00:58:54+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-07-17T00:59:05+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004089s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+
+[ 2016-07-17T01:00:58+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002265s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002493s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+
+[ 2016-07-17T01:01:00+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000654s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005829s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000474s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000527s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000483s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000609s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-07-17T01:01:00+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-07-17T01:01:10+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003960s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000184s ]
+ERR: Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:01:15+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000865s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005632s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 15 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000236s ]
+ERR: Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:01:19+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001651s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-07-17T01:01:21+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000659s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000609s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006049s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000391s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000372s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000294s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001699s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-07-17T01:01:21+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-07-17T01:03:05+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000622s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006073s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000615s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000553s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000463s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002446s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-07-17T01:03:05+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001119s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+
+[ 2016-07-17T01:03:18+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009172s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and password='d41d8cd98f00b204e9800998ecf8427e' and isadmin=1 ) LIMIT 1   [ RunTime:0.000371s ]
+ERR: Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='lwk' and password='d41d8cd98f00b204e9800998ecf8427e' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:03:25+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+
+[ 2016-07-17T01:05:38+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003481s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006766s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000209s ]
+ERR: Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:05:40+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+
+[ 2016-07-17T01:05:41+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000708s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008383s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000516s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000656s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000417s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002238s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-07-17T01:05:41+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+
+[ 2016-07-17T01:06:07+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005879s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000356s ]
+ERR: Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:07:08+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+
+[ 2016-07-17T01:07:09+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000459s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006438s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000391s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000402s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000363s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002020s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2016-07-17T01:07:09+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-07-17T01:07:21+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006557s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and password='d41d8cd98f00b204e9800998ecf8427e' and isadmin=1 ) LIMIT 1   [ RunTime:0.000487s ]
+ERR: Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='lwk' and password='d41d8cd98f00b204e9800998ecf8427e' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:07:39+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001037s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-07-17T01:09:26+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000868s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006990s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000673s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000719s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000476s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002599s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000657s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-07-17T01:09:27+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+
+[ 2016-07-17T01:09:40+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008422s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000282s ]
+ERR: Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:09:43+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000691s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+
+[ 2016-07-17T01:12:00+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001026s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000610s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006928s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000505s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000629s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000450s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002458s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000882s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-07-17T01:12:00+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+
+[ 2016-07-17T01:12:10+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005892s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='{'lwk'}' and password='{''}' and isadmin=1 ) LIMIT 1   [ RunTime:0.000875s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lwk'}' and password='{''}' and isadmin=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='{'lwk'}' and password='{''}' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:13:47+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-07-17T01:13:48+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000688s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000471s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000535s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005181s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000470s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000588s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000317s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-07-17T01:13:48+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001113s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-07-17T01:14:00+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005845s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000184s ]
+ERR: Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:14:02+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+
+[ 2016-07-17T01:14:05+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000637s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006316s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000481s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000564s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000563s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002966s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-07-17T01:14:05+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-07-17T01:14:16+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003300s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000172s ]
+ERR: Unknown column 'password' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='lwk' and password='' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:15:43+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-07-17T01:15:44+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000516s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005576s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000406s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000359s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000282s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001692s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-07-17T01:15:44+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-07-17T01:15:58+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005122s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='' and isadmin=1 ) LIMIT 1   [ RunTime:0.001380s ]
+
+[ 2016-07-17T01:16:01+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-07-17T01:16:10+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004393s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000424s ]
+
+[ 2016-07-17T01:16:37+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000676s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-07-17T01:16:39+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000671s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000681s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006336s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000445s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000414s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000338s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-07-17T01:16:39+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-07-17T01:16:47+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001338s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006380s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000715s ]
+
+[ 2016-07-17T01:18:18+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+
+[ 2016-07-17T01:18:19+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000440s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006680s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000381s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000352s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000273s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-07-17T01:18:19+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001322s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-07-17T01:18:29+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001739s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001852s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004835s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='{'lwk'}' and passworld='{''}' and isadmin=1 ) LIMIT 1   [ RunTime:0.000148s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lwk'}' and passworld='{''}' and isadmin=1 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( username='{'lwk'}' and passworld='{''}' and isadmin=1 ) LIMIT 1  
+
+[ 2016-07-17T01:19:58+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+
+[ 2016-07-17T01:19:59+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000646s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007113s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000670s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000568s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000456s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000590s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-07-17T01:19:59+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+
+[ 2016-07-17T01:20:07+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003389s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003722s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+NOTIC: [8] Undefined variable: username’ D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 18 行.
+NOTIC: [8] Undefined variable: password’ D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 18 行.
+SQL: SELECT * FROM `user` WHERE ( username='{‘}' and passworld='{‘}' and isadmin=1 ) LIMIT 1   [ RunTime:0.000274s ]
+
+[ 2016-07-17T01:22:55+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-07-17T01:22:55+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000642s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005962s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000510s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000425s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000349s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-07-17T01:22:55+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001708s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+
+[ 2016-07-17T01:23:04+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005063s ]
+NOTIC: [8] Undefined index: passworld D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\LoginAction.class.php 第 13 行.
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='' and isadmin=1 ) LIMIT 1   [ RunTime:0.000320s ]
+
+[ 2016-07-17T01:23:26+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-07-17T01:23:28+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000639s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000487s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005825s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000482s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000418s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000696s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-07-17T01:23:28+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+
+[ 2016-07-17T01:23:36+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000737s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003449s ]
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='lwk' and isadmin=1 ) LIMIT 1   [ RunTime:0.000275s ]
+
+[ 2016-07-17T01:26:42+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000798s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-07-17T01:26:42+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000598s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000806s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009852s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000618s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000508s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000720s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002477s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-07-17T01:26:42+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001204s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-07-17T01:26:43+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000645s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006406s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000475s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000360s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000311s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-07-17T01:26:43+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-07-17T01:26:53+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004095s ]
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='lwk' and isadmin=1 ) LIMIT 1   [ RunTime:0.001211s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001724s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007075s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000356s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000467s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000360s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001844s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-07-17T01:26:55+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000848s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006864s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000411s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000377s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000331s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-07-17T01:27:06+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000668s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013083s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000799s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000945s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001295s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005716s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2016-07-17T01:27:14+08:00 ] 127.0.0.1 /MyWork/admin.php/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002342s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000569s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010215s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000652s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000676s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000668s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002902s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000925s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-07-17T01:27:15+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-07-17T01:27:35+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000535s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009578s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000531s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000446s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002017s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-07-17T01:27:35+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-07-17T01:27:53+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002104s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000819s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008295s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001719s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000951s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000512s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004216s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000825s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-07-17T01:27:53+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-07-17T01:28:04+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005915s ]
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='lwk' and isadmin=1 ) LIMIT 1   [ RunTime:0.000306s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000637s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007618s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000449s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000417s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-07-17T01:28:05+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002297s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000833s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010067s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000587s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000471s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000369s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002106s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-07-17T01:28:13+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002666s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000928s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010730s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000575s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000768s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001287s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003673s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000789s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-07-17T01:28:13+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001114s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-07-17T01:28:21+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008707s ]
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='lwk' and isadmin=1 ) LIMIT 1   [ RunTime:0.000359s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000517s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006494s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000596s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000716s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000514s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002603s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-07-17T01:28:23+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000690s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000472s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010560s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000602s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000885s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000654s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003583s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-07-17T01:28:29+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add/menu/blog
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000924s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013656s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000388s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000353s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000342s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001754s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-07-17T01:28:50+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add/menu/blog
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000918s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014858s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001156s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001243s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000659s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002961s ]
+
+[ 2016-07-17T01:29:04+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000651s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007065s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000862s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000730s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000367s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002624s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-07-17T01:30:24+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-07-17T01:30:36+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-07-17T01:33:06+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000792s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000610s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006187s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000460s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000429s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000639s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002154s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000577s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-07-17T01:37:32+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000530s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005989s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000434s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000447s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000405s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002101s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000705s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-07-17T01:37:32+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-07-17T01:38:20+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2016-07-17T01:38:33+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003045s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003466s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010934s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000466s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000403s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000325s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001934s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-07-17T01:40:46+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000774s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008745s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000465s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000436s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000331s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001941s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000954s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-07-17T01:44:03+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000756s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000597s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007956s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000648s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000598s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002480s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-07-17T01:44:16+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000600s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007193s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000576s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000531s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000372s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002105s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-07-17T01:49:11+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000819s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000951s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006453s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000449s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000469s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000358s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-07-17T01:49:11+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+
+[ 2016-07-17T01:50:11+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000706s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009484s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000574s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000496s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000380s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002252s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-07-17T01:50:11+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001118s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-07-17T01:55:09+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000662s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000592s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007229s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000437s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000425s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000338s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000655s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-07-17T01:55:10+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001806s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001965s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002217s ]
+
+[ 2016-07-17T01:55:19+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005304s ]
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='lwk' and isadmin=1 ) LIMIT 1   [ RunTime:0.000368s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000581s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006054s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000366s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000348s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000266s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-07-17T01:55:20+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000627s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000518s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008201s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000674s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000534s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000326s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002136s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-07-17T01:55:26+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add/menu/blog
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000592s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006452s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000435s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000416s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000337s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-07-17T01:55:28+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000687s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010037s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000658s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000488s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000418s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002386s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-07-17T01:55:29+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000682s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007908s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000652s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000521s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000538s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003080s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001055s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2016-07-17T01:55:29+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-07-17T01:55:41+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000615s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011199s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000626s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000669s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000474s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2016-07-17T01:55:41+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-07-17T01:55:52+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004343s ]
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='lwk' and isadmin=1 ) LIMIT 1   [ RunTime:0.000286s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000644s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006385s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000345s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000344s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000266s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001526s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-07-17T01:55:53+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000466s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008656s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000916s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000543s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000435s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002708s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-07-17T01:55:56+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000407s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006464s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000535s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000597s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000426s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002387s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-07-17T01:56:20+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000472s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006398s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000389s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000343s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000311s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001794s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-07-17T01:56:54+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002336s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001095s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001320s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000497s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000470s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000413s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002179s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-07-17T01:56:55+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000573s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008854s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000938s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000748s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001621s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005856s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2016-07-17T01:56:55+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-07-17T01:57:08+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000860s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000548s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009345s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000644s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000566s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000360s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002214s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-07-17T01:57:08+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-07-17T01:58:35+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000535s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007898s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001687s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001476s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004153s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-07-17T01:58:35+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-07-17T01:58:46+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005252s ]
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='lwk' and isadmin=1 ) LIMIT 1   [ RunTime:0.000333s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001130s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006422s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000815s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000813s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000526s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005888s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2016-07-17T01:58:47+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000744s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001215s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000659s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000387s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002984s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-07-17T01:58:49+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index/menu/user
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000396s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008231s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000414s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000347s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000321s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001714s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-07-17T01:59:02+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add/menu/blog
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001531s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000661s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009682s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000603s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000448s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000264s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001859s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-07-17T02:00:59+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.005629s ]
+SQL: INSERT INTO `blog` (`category`,`username`,`title`,`content`,`time`) VALUES ('诗文','刘玮�\�','文章','&lt;img alt=&quot;&quot; src=&quot;/MyWork/Public/kd/attached/image/20160716/20160716180054_52275.png&quot; /&gt;轻轻的我走了�\�&lt;br /&gt;\r\n正如我轻轻的来；&lt;br /&gt;\r\n我轻轻的招手�\�&lt;br /&gt;\r\n作别西天的云彩�\�&lt;br /&gt;\r\n那河畔的金柳�\�&lt;br /&gt;\r\n是夕阳中的新娘；&lt;br /&gt;\r\n波光里的艳影�\�&lt;br /&gt;\r\n在我的心头荡漾�\�&lt;br /&gt;\r\n软泥上的青荇�\�&lt;br /&gt;\r\n油油的在水底招摇�\�&lt;br /&gt;\r\n在康桥的柔波里，&lt;br /&gt;\r\n我甘心做一条水草！&lt;br /&gt;\r\n那榆荫下的一潭，&lt;br /&gt;\r\n不是清泉�\�&lt;br /&gt;\r\n是天上虹揉碎在浮藻间�\�&lt;br /&gt;\r\n沉淀着彩虹似的梦�\�&lt;br /&gt;\r\n寻梦？撑一支长蒿，&lt;br /&gt;\r\n向青草更青处漫溯�\�&lt;br /&gt;\r\n满载一船星辉，&lt;br /&gt;\r\n在星辉斑斓里放歌�\�&lt;br /&gt;\r\n但我不能放歌�\�&lt;br /&gt;\r\n悄悄是别离的笙箫�\�&lt;br /&gt;\r\n夏虫也为我沉默，&lt;br /&gt;\r\n沉默是今晚的康桥�\�&lt;br /&gt;\r\n悄悄的我走了�\�&lt;br /&gt;\r\n正如我悄悄的来；&lt;br /&gt;\r\n我挥一挥衣袖，&lt;br /&gt;\r\n不带走一片云彩�\�',1468692059) [ RunTime:0.006335s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\BlogAction.class.php 第 14 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001619s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001854s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007630s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000808s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000741s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000542s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003087s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-07-17T02:01:00+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000596s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006711s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000431s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000372s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000271s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-07-17T02:01:03+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000727s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009886s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000625s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000805s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000392s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002624s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000782s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-07-17T02:05:35+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004185s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001335s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001467s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020323s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002436s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002462s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002482s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.010553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018683s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002145s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002340s ]
+
+[ 2016-07-17T02:05:35+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003008s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+
+[ 2016-07-17T02:05:46+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005386s ]
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='lwk' and isadmin=1 ) LIMIT 1   [ RunTime:0.000426s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000923s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007524s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000410s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000411s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000327s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001761s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2016-07-17T02:05:47+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000889s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015203s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000780s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000642s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000437s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002678s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000740s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-07-17T02:05:51+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add/menu/blog
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000890s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007370s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000438s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000397s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000319s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001718s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000656s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-07-17T02:07:59+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001015s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.010536s ]
+SQL: INSERT INTO `blog` (`category`,`username`,`title`,`content`,`time`) VALUES ('诗文','刘玮�\�','好的','&lt;img alt=&quot;&quot; src=&quot;/MyWork/Public/kd/attached/image/20160716/20160716180754_51358.jpg&quot; /&gt;�\�&lt;a class=&quot;keywordlink&quot; href=&quot;http://www.jj59.com/zti/time/&quot;&gt;时间&lt;/a&gt;&lt;br /&gt;\r\n&lt;br /&gt;\r\n枯萎了花的思绪&lt;br /&gt;\r\n&lt;br /&gt;\r\n绽放�\�&lt;br /&gt;\r\n&lt;br /&gt;\r\n它凋零的梦境&lt;br /&gt;\r\n&lt;br /&gt;\r\n是炊�\�&lt;br /&gt;\r\n&lt;br /&gt;\r\n模仿着云的样子&lt;br /&gt;\r\n&lt;br /&gt;\r\n袅袅�\�&lt;br /&gt;\r\n&lt;br /&gt;\r\n倾诉着对天的相�\�&lt;br /&gt;\r\n&lt;br /&gt;\r\n是蝴�\�&lt;br /&gt;\r\n&lt;br /&gt;\r\n迷失了自己的归期&lt;br /&gt;\r\n&lt;br /&gt;\r\n在偌大的&lt;br /&gt;\r\n&lt;br /&gt;\r\n花园中寻找着过去&lt;br /&gt;\r\n&lt;br /&gt;\r\n是承�\�&lt;br /&gt;\r\n&lt;br /&gt;\r\n离开了兑现的日子&lt;br /&gt;\r\n&lt;br /&gt;\r\n远远的，远远�\�&lt;br /&gt;\r\n&lt;br /&gt;\r\n要将谁的笑容忆起',1468692479) [ RunTime:0.002402s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\BlogAction.class.php 第 14 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000830s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000890s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007747s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000478s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000416s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001845s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-07-17T02:08:00+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001525s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001027s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018843s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001426s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002291s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000566s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005409s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2016-07-17T02:08:05+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002631s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002972s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000708s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010217s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000611s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000566s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000456s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002903s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001301s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2016-07-17T02:14:22+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003861s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001247s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001371s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014195s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001210s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000813s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003634s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010850s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002861s ]
+
+[ 2016-07-17T02:14:22+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+
+[ 2016-07-17T02:14:32+08:00 ] 127.0.0.1 /MyWork/admin.php/Login/check
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004977s ]
+SQL: SELECT * FROM `user` WHERE ( username='lwk' and passworld='lwk' and isadmin=1 ) LIMIT 1   [ RunTime:0.001013s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002204s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002568s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008323s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000353s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000348s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-07-17T02:14:33+08:00 ] 127.0.0.1 /MyWork/admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001139s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002462s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002797s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003125s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011317s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000615s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000548s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000412s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002324s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-07-17T02:14:36+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add/menu/blog
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000805s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008367s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000371s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000353s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000275s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001531s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-07-17T02:16:10+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/insert
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002599s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.005210s ]
+SQL: INSERT INTO `blog` (`category`,`username`,`title`,`content`,`time`) VALUES ('wode','liuweikang','nidas','&lt;p&gt;\r\n	&lt;img alt=&quot;&quot; src=&quot;/MyWork/Public/kd/attached/image/20160716/20160716181547_71578.jpg&quot; /&gt;\r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n	sdasafmnnnidsfhkdshkjdskndslkafjkghjkdjkhfjshafkdsagjsldhgahsjkdghjaksghk爱的是符合框架来撒会放假哈空间和 结婚卡进来哈空间和几乎几乎立刻就回家看很快就恢复健康和看好看交流环境可厉害框架和健康\r\n&lt;/p&gt;',1468692970) [ RunTime:0.002553s ]
+NOTIC: [8] Use of undefined constant add - assumed 'add' D:\ApacheMysqlPhp\web\MyWork\Admin\Lib\Action\BlogAction.class.php 第 14 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000667s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012583s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000437s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000436s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000346s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001825s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-07-17T02:16:11+08:00 ] 127.0.0.1 /MyWork/admin.php/Blog/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000635s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Use of undefined constant menu - assumed 'menu' D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+NOTIC: [8] Undefined index: menu D:\ApacheMysqlPhp\web\MyWork\Admin\Runtime\Cache\e0b42bb63566b5ca3d18519f051a3a13.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008200s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000374s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000379s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000314s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001619s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000519s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000560s ]
+

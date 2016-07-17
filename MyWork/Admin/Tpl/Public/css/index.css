@@ -1,0 +1,29 @@
+.login{
+	width:500px;
+	height:320px;
+	box-shadow:0 0 10px 10px #888;
+	margin:150px auto 0 auto;
+	border-radius:30px 0;
+	padding:30px;
+}
+
+.verify{
+	cursor:pointer;
+}
+
+.row2{
+	height:700px;
+}
+
+.left{
+	border-right:1px solid #ddd;
+	height:100%;
+}
+
+.right{
+	height:100%;
+}
+
+.content{
+	resize:none;
+}
